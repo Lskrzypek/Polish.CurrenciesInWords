@@ -34,3 +34,8 @@ Polish.NumberInWords offers following features:
     
 // sto pięćdziesiąt jeden zł (PLN)
 ```
+
+## Others
+See my others libraries:
+- [https://github.com/Lskrzypek/Polish.NumberInWords](Polish.NumbersInWords)
+- [https://github.com/Lskrzypek/Polish.DatesInWords](Polish.DatesInWords)
