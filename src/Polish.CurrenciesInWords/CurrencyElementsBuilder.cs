@@ -1,5 +1,4 @@
-﻿using Polish.NumbersInWords;
-using System;
+﻿using System;
 
 namespace Polish.CurrenciesInWords
 {
@@ -9,7 +8,7 @@ namespace Polish.CurrenciesInWords
     public class CurrencyElementsBuilder
     {
         private decimal _amount;
-        private Case _case = NumbersInWords.Case.Nominative;
+        private Case _case = CurrenciesInWords.Case.Nominative;
         private ICurrency _currency;
 
         private ICurrencyElements _currencyElements = null;

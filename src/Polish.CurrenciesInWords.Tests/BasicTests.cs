@@ -1,5 +1,4 @@
 ﻿using Polish.CurrenciesInWords;
-using Polish.NumbersInWords;
 
 namespace Polish.Currencies.Tests
 {

@@ -40,14 +40,14 @@ namespace Polish.CurrenciesInWords
 
             _mainUnitNumberElements = MainUnitAmount
                     .ToPolishWords()
-                    .Case(_case)
+                    .Case(_case.ToNumericCase())
                     .Gender(_currency.MainUnitGender)
                     .WithOneBeforeThousand()
                     .NumberElements;
 
             _fractionalUnitNumberElements = FractionalUnitAmount
                     .ToPolishWords()
-                    .Case(_case)
+                    .Case(_case.ToNumericCase())
                     .Gender(_currency.FractionalUnitGender)
                     .NumberElements;
         }
