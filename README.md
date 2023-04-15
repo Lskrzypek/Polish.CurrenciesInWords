@@ -37,5 +37,5 @@ Polish.NumberInWords offers following features:
 
 ## Others
 See my others libraries:
-- [https://github.com/Lskrzypek/Polish.NumberInWords](Polish.NumbersInWords)
-- [https://github.com/Lskrzypek/Polish.DatesInWords](Polish.DatesInWords)
+- [Polish.NumbersInWords](https://github.com/Lskrzypek/Polish.NumberInWords)
+- [Polish.DatesInWords](https://github.com/Lskrzypek/Polish.DatesInWords)
