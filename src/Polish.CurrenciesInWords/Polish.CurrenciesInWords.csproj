@@ -2,7 +2,30 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>Convert amounts to Polish words in specified currency.</Title>
+    <Authors>lukasz_skrzypek</Authors>
+    <Description>Friendly library to convert amounts to Polish words in specified currency. Include all 7 cases.</Description>
+    <Copyright>MIT licence</Copyright>
+    <PackageProjectUrl>https://github.com/Lskrzypek/Polish.CurrenciesInWords</PackageProjectUrl>
+    <PackageIcon>Icon-Cur.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/Lskrzypek/Polish.CurrenciesInWords</RepositoryUrl>
+    <PackageTags>Currency, Currencies, InWords, Words, Humanizer, Humanize, Polish, PL, PLN, EUR, USD</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\Icon-Cur.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Polish.NumbersInWords" Version="1.0.2" />
