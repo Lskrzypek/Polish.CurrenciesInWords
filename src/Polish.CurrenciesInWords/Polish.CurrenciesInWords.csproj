@@ -14,6 +14,7 @@
     <PackageTags>Currency, Currencies, InWords, Words, Humanizer, Humanize, Polish, PL, PLN, EUR, USD</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
@@ -28,7 +29,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Polish.NumbersInWords" Version="1.0.2" />
+    <PackageReference Include="Polish.NumbersInWords" Version="1.0.3" />
   </ItemGroup>
 
 </Project>
